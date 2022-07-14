@@ -39,14 +39,40 @@
                </div>
             </div>
 
-            <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16
-               lg:mt-20 lg:px-8 xl:mt-20">
+            <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10
+               lg:mt-10 lg:px-8 xl:mt-10">
                <div class="sm:text-center lg:text-left">
-                  <h1 class="text-4xl tracking-tight font-extrabold
-                     text-yellow-300 sm:text-5xl md:text-6xl">
-                     <span class="block xl:inline">Emerson Cabrera</span>
-                     <span class="block text-green-500 xl:inline">@Emercab</span>
-                  </h1>
+                  <div class="flex">
+                     <h1 class="text-4xl tracking-tight font-extrabold
+                        text-yellow-300 sm:text-5xl md:text-5xl md:w-3/5">
+                        <span class="block xl:inline">Emerson Cabrera</span>
+                        <span class="block text-green-500 xl:inline">@Emercab</span>
+                     </h1>
+                     <!-- Weather Card -->
+                     <div class="flex items-center justify-center w-60">
+                        <div class="bg-slate-500 shadow-2xl p-2 rounded-2xl border-2 border-slate-800
+                           w-11/12">
+                           <div class="flex flex-col">
+                              <h2 class="font-bold text-slate-50 text-center" id="nameCity">
+                                 <!--Requeted City and Country-->>
+                              </h2>
+                              <div class="flex flex-row space-x-4 items-center">
+                                 <div id="requestedIcon">
+                                    <!--Icon-->
+                                 </div>
+                                 <div>
+                                    <h4 class="text-3xl font-bold text-yellow-300" id="temp">
+                                       <!--Requested Temp-->
+                                    </h4>
+                                    <p class="text-xs text-gray-300" id="weather">
+                                       <!--Requested Weather-->
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div> <!--End Card-->
+                  </div>
                   <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto
                      md:mt-5 md:text-xl lg:mx-0">
                      I am a Technology and Informatics Teacher, Systems Engineer with a Master's Degree in Educational Technology Management. I love apply tecnology into education enviroments to promote learning.
